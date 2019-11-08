@@ -1,0 +1,28 @@
+<%@page import="com.bridgeLabz.model.Registration"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Welcome</title>
+</head>
+<body>
+<%@page import= "java.util.ArrayList"%>
+<%@page import ="java.util.List"%> 
+<%@page import ="com.bridgeLabz.model.Registration"%>
+<h1>Welcome</h1>
+<%
+	List<Registration> list = (ArrayList<Registration>)request.getAttribute("list");
+
+	for(int i=0;i<list.size();i++)
+	{
+		out.println(list.get(i).getName()+"\n");
+		out.println(list.get(i).getPhoneNo()+"\n");
+		out.println(list.get(i).getEmail()+"\n");
+		out.println(list.get(i).getPassword()+"\n");
+	 }%>
+%>
+
+</body>
+</html>

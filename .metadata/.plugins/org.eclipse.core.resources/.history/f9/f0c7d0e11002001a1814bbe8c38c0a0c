@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+	h1 {text-align:center;}
+</style>
+<meta charset="UTF-8">
+<title>Welcome to my Website</title>
+</head>
+<body>
+	<h1>Login</h1>
+	<form action="login" method="get">
+		<table align="center">
+			<tr><th >Username:</th> <th ><input type="text" name="username"></th></tr>
+			<tr><th >Password:</th> <th ><input type="password" name="password"></th></tr>
+			<tr><th ><input type="submit" name="submit"></th>
+			<th ><input type=reset name="Clear"></th></tr>
+			<tr><th><button><a href="forgotPassword.jsp"> forgot Password </a></button></th>
+			<th><button><a href="register.jsp"> Register user </a></button></th></tr>
+		</table>
+	</form>
+</body>
+</html>

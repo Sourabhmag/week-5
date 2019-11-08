@@ -1,0 +1,40 @@
+package com.bridgeLabz.controller;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.bridgeLabz.dao.RetriveDataFromDB;
+import com.bridgeLabz.model.Login;
+import com.bridgeLabz.model.Registration;
+
+@WebServlet("/forgot")
+public class ForgotServlet extends HttpServlet{
+	
+	public void service(HttpServletRequest request,HttpServletResponse response)
+	{
+		Login login = new Login();
+		login.setUsername(request.getParameter("email"));
+		
+		List<Registration> list = new ArrayList<Registration>();
+		list = RetriveDataFromDB.getData(login);
+		PrintWriter out=null;
+		try {
+			out = response.getWriter();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		if(list==null)
+			out.println("Invalid Access Cridentials");
+		
+		
+	}
+}

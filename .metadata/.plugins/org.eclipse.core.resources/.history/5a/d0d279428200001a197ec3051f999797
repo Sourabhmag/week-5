@@ -1,0 +1,34 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+	form {text-align:center;}
+	table {text-align:center;}
+	tr {text-align:center;}
+	th {text-align:center;}
+	h1 {text-align:center;}
+</style>
+<meta charset="UTF-8">
+<title>Welcome to my Website</title>
+</head>
+<body>
+	<h1>Login</h1>
+	<form action="" method="get">
+	<table align="center">
+		<tr><th >Username:</th> <th ><input type="text" name="firstname"></th></tr>
+		<tr><th >Password:</th> <th ><input type="password" name="firstname"></th></tr>
+		<tr><th ><input type="submit" name="submit"></th></tr>
+		<tr><th ><input type="submit" name="submit"></th></tr>
+		<tr><th><button type="submit" value="Submit">Submit</button></th></tr>
+  		<tr><th><button type="reset" value="Reset">Reset</button></th></tr>
+		
+			
+		
+
+		
+		</table>
+	</form>
+</body>
+</html>

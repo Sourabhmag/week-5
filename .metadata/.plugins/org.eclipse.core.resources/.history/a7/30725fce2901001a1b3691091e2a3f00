@@ -1,0 +1,32 @@
+package com.bridgeLabz.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import com.bridgeLabz.model.Registration;
+import com.bridgeLabz.repository.ConnectionToDB;
+
+public class SendDataToDB {
+	static Connection connection;
+	public static boolean inseretIntoDB(Registration register) throws Exception
+	{
+		String query = "INSERT INTO `Login`.`userData` (`name`, `phoneNo`, `email`, `password`) VALUES "
+				+ "(?,?,?,?)";
+		connection = ConnectionToDB.DBConnection();
+		PreparedStatement preparedStatement = connection.prepareStatement(query);
+		preparedStatement.setString(1,register.getName());
+		preparedStatement.setString(2,register.getPhoneNo());
+		preparedStatement.setString(3,register.getEmail());
+		preparedStatement.setString(4,register.getPassword());
+		
+		try {
+			int value = preparedStatement.executeUpdate();
+			if (value > 0) {
+				return true;
+			} else
+				return false;
+		} catch (Exception e) {
+			System.out.println("username already exist,please enter another username");
+		}
+	}
+}

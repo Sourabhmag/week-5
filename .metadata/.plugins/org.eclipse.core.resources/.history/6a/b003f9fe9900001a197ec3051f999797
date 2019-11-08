@@ -1,0 +1,5 @@
+package com.bridgeLabz.repository;
+
+public class ConnectionToDB {
+
+}

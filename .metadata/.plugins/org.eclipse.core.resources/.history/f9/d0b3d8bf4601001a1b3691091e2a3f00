@@ -1,0 +1,23 @@
+package com.bridgeLabz.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import com.bridgeLabz.model.Login;
+import com.bridgeLabz.repository.ConnectionToDB;
+
+public class RetriveDataFromDB {
+	public static boolean getData(Login login)
+	{
+		String query = "select * from userData where email=?";
+		Connection connection = ConnectionToDB.DBConnection();
+		try {
+			PreparedStatement preparedStatement = connection.prepareStatement(query);
+			preparedStatement.setString(1,login.getUsername());
+		} catch (SQLException e) {
+			System.out.println("User is not registered");
+			e.printStackTrace();
+		}
+	}
+}

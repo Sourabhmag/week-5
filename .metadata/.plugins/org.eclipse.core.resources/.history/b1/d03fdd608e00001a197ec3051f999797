@@ -1,0 +1,9 @@
+package com.bridgeLabz.model;
+
+public class Registration {
+	String name;
+	String phoneNo;
+	String email;
+	String password;
+	String checkPassword;
+}

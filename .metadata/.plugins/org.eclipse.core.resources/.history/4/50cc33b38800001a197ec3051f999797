@@ -1,0 +1,5 @@
+package com.bridgeLabz.controller;
+
+public class RegistrationServlet {
+
+}

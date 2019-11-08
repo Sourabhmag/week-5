@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+	h1 {text-align:center;}
+</style>
+<meta charset="UTF-8">
+<title>Reset Password</title>
+</head>
+<body>
+	<h1>Login</h1>
+	<form action="forgot" method="get">
+		<table align="center">
+			<tr><th >Email Id:</th> <th ><input type="text" name="email"></th></tr>
+			<tr><th ><input type="submit" name="submit"></th></tr>
+		</table>
+	</form>
+</body>
+</html>
