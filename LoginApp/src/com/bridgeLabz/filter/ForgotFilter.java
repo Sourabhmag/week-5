@@ -15,6 +15,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
+ * @author Sourabh Magdum
+ * @purpose - Used to filter data inserted by user 
+ * 				while using functionality of forgot password
+ * Data - 11/11/2019
  * Servlet Filter implementation class ForgotFilter
  */
 @WebFilter("/forgot")

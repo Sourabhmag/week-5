@@ -11,8 +11,13 @@ import com.bridgeLabz.model.Login;
 import com.bridgeLabz.model.Registration;
 import com.bridgeLabz.repository.ConnectionToDB;
 
+/**
+ * @author Sourabh Magdum
+ * @Purpose - Read data from database and return data in the form of list
+ * Date - 11/11/2019
+ */
 public class RetriveDataFromDB {
-	public static List<Registration>  getData(Login login)
+	public static List<Registration>  getData()
 	{
 		String query = "select * from userData";
 		Connection connection = ConnectionToDB.DBConnection();

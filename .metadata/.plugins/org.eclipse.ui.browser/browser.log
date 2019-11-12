@@ -167,3 +167,219 @@ Nov 08, 2019 17:07:00.19 [29422:29422:1108/170700.190021:ERROR:sandbox_linux.cc(
 Nov 08, 2019 17:07:00.26 Opening in existing browser session.
 Nov 08, 2019 17:07:54.85 [29566:29566:1108/170754.856308:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
 Nov 08, 2019 17:07:54.90 Opening in existing browser session.
+
+Nov 08, 2019 18:14:37.78 NEW SESSION
+Nov 08, 2019 18:14:37.78 Opening in existing browser session.
+Nov 08, 2019 18:36:30.19 Opening in existing browser session.
+Nov 08, 2019 19:03:27.32 [5508:5508:1108/190327.329195:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Nov 08, 2019 19:03:27.36 Opening in existing browser session.
+Nov 08, 2019 19:23:30.76 [6987:6987:1108/192330.762444:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Nov 08, 2019 19:23:30.84 Opening in existing browser session.
+Nov 08, 2019 19:24:17.18 [7220:7220:1108/192417.185751:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Nov 08, 2019 19:24:17.20 Opening in existing browser session.
+Nov 08, 2019 19:26:01.06 [7425:7425:1108/192601.069130:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Nov 08, 2019 19:26:01.30 Opening in existing browser session.
+Nov 08, 2019 19:27:27.25 [7587:7587:1108/192727.256579:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Nov 08, 2019 19:27:27.43 Opening in existing browser session.
+
+Nov 09, 2019 09:52:51.08 NEW SESSION
+Nov 09, 2019 09:52:51.08 [4940:4940:1109/095251.080756:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Nov 09, 2019 09:52:52.09 [4940:4940:1109/095252.093805:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Nov 09, 2019 09:58:03.38 Opening in existing browser session.
+Nov 09, 2019 10:05:43.33 [6320:6320:1109/100543.336450:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Nov 09, 2019 10:05:43.36 Opening in existing browser session.
+Nov 09, 2019 10:07:15.14 [1:1:1109/100715.149055:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:07:15.15 [1:1:1109/100715.150188:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:07:17.82 [1:1:1109/100717.827369:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:07:17.82 [1:1:1109/100717.828146:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:07:17.83 [1:1:1109/100717.829615:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:07:17.83 [1:1:1109/100717.833042:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:07:19.37 [1:1:1109/100719.374351:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:07:25.43 [1:1:1109/100725.438452:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:07:25.43 [1:1:1109/100725.439354:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:07:38.32 [1:1:1109/100738.320892:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:07:38.32 [1:1:1109/100738.322893:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:07:38.36 [1:1:1109/100738.366675:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:07:38.36 [1:1:1109/100738.368277:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:08:43.07 [1:1:1109/100843.070681:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:08:43.07 [1:1:1109/100843.071896:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:08:44.88 [1:1:1109/100844.880115:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:08:44.88 [1:1:1109/100844.882600:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:08:44.88 [1:1:1109/100844.884164:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:08:44.88 [1:1:1109/100844.884753:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:08:45.91 [1:1:1109/100845.913278:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:09:06.40 [1:1:1109/100906.408612:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:09:06.40 [1:1:1109/100906.409766:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:15:29.08 [7082:7082:1109/101529.088335:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Nov 09, 2019 10:15:29.20 Opening in existing browser session.
+Nov 09, 2019 10:24:27.75 [7441:7441:1109/102427.758160:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Nov 09, 2019 10:24:27.95 Opening in existing browser session.
+Nov 09, 2019 10:26:07.68 [7609:7609:1109/102607.689337:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Nov 09, 2019 10:26:07.75 Opening in existing browser session.
+Nov 09, 2019 10:49:41.32 [1:1:1109/104941.327989:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:49:41.32 [1:1:1109/104941.328899:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:49:56.60 [4940:4940:1109/104956.601056:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Nov 09, 2019 10:50:03.41 [1:1:1109/105003.419028:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:50:03.42 [1:1:1109/105003.421069:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:50:03.43 [1:1:1109/105003.430689:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:50:03.43 [1:1:1109/105003.431645:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:50:23.55 [4940:4940:1109/105023.552809:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Nov 09, 2019 10:50:29.43 [4940:4940:1109/105029.433842:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Nov 09, 2019 10:50:31.50 [4940:4940:1109/105031.508337:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Nov 09, 2019 10:50:36.48 [1:1:1109/105036.480349:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:50:36.48 [1:1:1109/105036.484838:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:50:36.49 [1:1:1109/105036.489697:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:50:36.49 [1:1:1109/105036.492941:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:50:36.49 [1:1:1109/105036.498061:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:50:36.50 [1:1:1109/105036.501384:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:50:36.51 [1:1:1109/105036.511516:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:50:36.51 [1:1:1109/105036.513683:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:50:46.88 [1:1:1109/105046.879698:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:50:47.16 [1:1:1109/105047.167515:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:51:06.42 [4940:4940:1109/105106.420280:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Nov 09, 2019 10:51:08.44 [1:1:1109/105108.439758:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:51:08.44 [1:1:1109/105108.440631:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:51:08.48 [1:1:1109/105108.479927:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:51:08.48 [1:1:1109/105108.480991:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:51:08.53 [1:1:1109/105108.536683:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:51:08.53 [1:1:1109/105108.537481:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:51:08.61 [1:1:1109/105108.616897:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:51:08.61 [1:1:1109/105108.617677:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:51:11.23 [1:1:1109/105111.236433:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:51:11.24 [1:1:1109/105111.239606:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:51:11.24 [1:1:1109/105111.243598:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:51:11.24 [1:1:1109/105111.245699:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:52:06.46 [1:1:1109/105206.462474:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:52:06.46 [1:1:1109/105206.463331:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:52:06.64 [1:1:1109/105206.641218:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:52:06.64 [1:1:1109/105206.642620:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:52:06.64 [1:1:1109/105206.645258:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 10:52:06.64 [1:1:1109/105206.646556:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:00:20.83 Opening in existing browser session.
+Nov 09, 2019 11:13:55.61 [1:1:1109/111355.619658:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:13:55.62 [1:1:1109/111355.620747:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:15:03.60 [10199:10199:1109/111503.608611:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Nov 09, 2019 11:15:03.82 Opening in existing browser session.
+Nov 09, 2019 11:21:52.34 [1:1:1109/112152.348303:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:21:52.35 [1:1:1109/112152.351116:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:22:03.44 [1:1:1109/112203.441781:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:22:03.44 [1:1:1109/112203.443331:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:22:11.90 [1:1:1109/112211.900289:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:23:35.01 [1:1:1109/112335.011918:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:23:35.01 [1:1:1109/112335.014138:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:23:57.59 [4945:4959:1109/112357.594330:ERROR:ssl_client_socket_impl.cc(941)] handshake failed; returned -1, SSL error code 1, net_error -101
+Nov 09, 2019 11:25:10.34 [1:1:1109/112510.345199:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:25:10.34 [1:1:1109/112510.348397:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:25:37.13 [1:1:1109/112537.135867:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:25:37.13 [1:1:1109/112537.137652:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:25:37.14 [1:1:1109/112537.140494:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:25:37.14 [1:1:1109/112537.145929:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:26:07.16 [4940:4940:1109/112607.167553:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Nov 09, 2019 11:26:10.82 [1:1:1109/112610.821145:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:26:10.82 [1:1:1109/112610.823300:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:26:10.82 [1:1:1109/112610.826057:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:26:10.82 [1:1:1109/112610.827922:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:26:10.95 [1:1:1109/112610.953727:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:26:10.95 [1:1:1109/112610.954593:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:26:10.96 [1:1:1109/112610.959632:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:26:10.96 [1:1:1109/112610.960514:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:26:10.96 [1:1:1109/112610.961771:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:26:10.96 [1:1:1109/112610.966297:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:26:20.61 [4945:4959:1109/112620.613300:ERROR:ssl_client_socket_impl.cc(941)] handshake failed; returned -1, SSL error code 1, net_error -200
+Nov 09, 2019 11:26:21.40 [4945:4959:1109/112621.404381:ERROR:ssl_client_socket_impl.cc(941)] handshake failed; returned -1, SSL error code 1, net_error -200
+Nov 09, 2019 11:26:48.32 [4940:4940:1109/112648.323122:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Nov 09, 2019 11:26:50.47 [1:1:1109/112650.469722:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:26:50.47 [1:1:1109/112650.471748:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:26:50.47 [1:1:1109/112650.472884:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:26:50.47 [1:1:1109/112650.473405:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:26:53.16 [1:1:1109/112653.167767:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:26:53.16 [1:1:1109/112653.168598:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:26:53.17 [1:1:1109/112653.169842:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:26:53.17 [1:1:1109/112653.170470:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:26:53.17 [1:1:1109/112653.172621:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:26:53.18 [1:1:1109/112653.179912:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:27:32.00 [1:1:1109/112732.008515:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:27:32.00 [1:1:1109/112732.009325:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:27:32.15 [1:1:1109/112732.157926:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:27:32.16 [1:1:1109/112732.160103:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:29:33.38 [1:1:1109/112933.381928:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:29:33.38 [1:1:1109/112933.385453:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:29:42.13 [1:1:1109/112942.138573:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:29:42.13 [1:1:1109/112942.139622:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:29:42.14 [1:1:1109/112942.141259:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:29:42.14 [1:1:1109/112942.142214:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:29:42.99 [1:1:1109/112942.998235:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:30:34.10 [1:1:1109/113034.107354:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:30:34.10 [1:1:1109/113034.109011:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:30:35.02 [1:1:1109/113035.027150:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 11:30:35.02 [1:1:1109/113035.028206:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 12:24:15.37 [1:1:1109/122415.377615:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 12:24:15.37 [1:1:1109/122415.379304:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 12:24:19.83 [1:1:1109/122419.832936:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 12:24:19.83 [1:1:1109/122419.835294:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 12:24:19.83 [1:1:1109/122419.838089:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 12:24:19.83 [1:1:1109/122419.839133:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 12:24:20.96 [1:1:1109/122420.960069:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 12:24:25.00 [1:1:1109/122425.004942:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 12:24:25.00 [1:1:1109/122425.005832:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 12:24:25.71 [1:1:1109/122425.715292:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 12:24:25.72 [1:1:1109/122425.721294:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 12:32:55.72 [4940:4940:1109/123255.722842:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Nov 09, 2019 12:33:35.96 [1:1:1109/123335.968999:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 12:33:35.97 [1:1:1109/123335.970157:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 12:33:35.98 [1:1:1109/123335.982301:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 12:33:35.98 [1:1:1109/123335.983379:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 14:07:25.66 [4940:4940:1109/140725.663979:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+Nov 09, 2019 14:07:27.53 [1:1:1109/140727.529903:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 14:07:27.53 [1:1:1109/140727.530502:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 14:07:27.53 [1:1:1109/140727.532980:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 14:07:27.53 [1:1:1109/140727.536000:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 14:07:29.12 [1:1:1109/140729.109379:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 14:07:30.97 [1:1:1109/140730.974566:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 14:07:31.11 [1:1:1109/140730.982147:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 14:11:52.17 [16015:16015:1109/141152.179172:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Nov 09, 2019 14:11:52.19 Opening in existing browser session.
+Nov 09, 2019 14:14:09.91 [16300:16300:1109/141409.911080:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Nov 09, 2019 14:14:09.94 Opening in existing browser session.
+Nov 09, 2019 14:26:37.39 [1:1:1109/142637.395110:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 14:26:37.39 [1:1:1109/142637.395960:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 14:52:18.26 [1:1:1109/145218.263041:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 14:52:18.26 [1:1:1109/145218.264404:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 14:56:54.07 [1:1:1109/145654.073112:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 14:56:54.07 [1:1:1109/145654.073990:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 14:56:54.07 [1:1:1109/145654.077288:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 14:56:54.08 [1:1:1109/145654.080547:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 14:57:02.61 [1:1:1109/145702.613489:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 14:57:23.31 [1:1:1109/145723.316537:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 14:57:23.31 [1:1:1109/145723.317903:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 15:11:52.31 [4940:4940:1109/151152.311412:ERROR:gl_surface_presentation_helper.cc(259)] GetVSyncParametersIfAvailable() failed for 1 times!
+Nov 09, 2019 15:12:48.74 [4940:4940:1109/151248.745332:ERROR:gl_surface_presentation_helper.cc(259)] GetVSyncParametersIfAvailable() failed for 2 times!
+Nov 09, 2019 15:15:47.83 [4940:4940:1109/151547.834864:ERROR:gl_surface_presentation_helper.cc(259)] GetVSyncParametersIfAvailable() failed for 3 times!
+Nov 09, 2019 15:28:31.64 [1:1:1109/152831.643591:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 15:28:31.64 [1:1:1109/152831.645088:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 15:31:00.25 [1:1:1109/153100.252430:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 15:31:00.25 [1:1:1109/153100.253567:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 16:00:51.05 [1:1:1109/160051.053031:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 16:00:51.05 [1:1:1109/160051.053789:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 16:01:09.81 [1:1:1109/160109.817089:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 16:01:09.81 [1:1:1109/160109.818136:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 16:02:43.98 [1:1:1109/160243.989121:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 16:05:40.18 [1:1:1109/160540.178286:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 16:06:03.27 [1:1:1109/160603.269903:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 16:33:37.80 [1:1:1109/163337.801367:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 16:33:37.80 [1:1:1109/163337.806572:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 16:33:40.96 [1:1:1109/163340.963193:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 16:33:40.96 [1:1:1109/163340.964670:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 16:33:40.96 [1:1:1109/163340.968111:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 16:33:40.97 [1:1:1109/163340.969985:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 16:33:42.07 [1:1:1109/163342.061601:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 16:33:43.67 [1:1:1109/163343.672382:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 16:33:43.67 [1:1:1109/163343.674275:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 16:33:53.21 [1:1:1109/163353.219682:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 16:33:53.22 [1:1:1109/163353.220429:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 16:40:05.59 [1:1:1109/164005.595753:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+Nov 09, 2019 16:40:05.60 [1:1:1109/164005.600873:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+
+Nov 10, 2019 16:16:42.78 NEW SESSION
+Nov 10, 2019 16:16:42.78 [19754:19754:1110/161642.786392:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Nov 10, 2019 16:16:42.86 Opening in existing browser session.

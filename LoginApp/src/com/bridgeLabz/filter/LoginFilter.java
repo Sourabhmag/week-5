@@ -15,7 +15,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet Filter implementation class LoginFilter
+ * @author Sourabh Magdum
+ * @purpose - Used to filter data inserted by user 
+ * 				while using functionality of Login
+ * Data - 11/11/2019
  */
 @WebFilter("/login")
 public class LoginFilter implements Filter {

@@ -14,6 +14,11 @@ import com.bridgeLabz.dao.RetriveDataFromDB;
 import com.bridgeLabz.model.Login;
 import com.bridgeLabz.model.Registration;
 
+/**
+ * @author Sourabh Magdum
+ * @Purpose - Servlet for forgot password
+ * Date - 11/11/2019
+ */
 @WebServlet("/forgot")
 public class ForgotServlet extends HttpServlet{
 	
@@ -26,7 +31,7 @@ public class ForgotServlet extends HttpServlet{
 		login.setUsername(request.getParameter("email"));
 		
 		
-		list = RetriveDataFromDB.getData(login);
+		list = RetriveDataFromDB.getData();
 		PrintWriter out=null;
 		try {
 			out = response.getWriter();

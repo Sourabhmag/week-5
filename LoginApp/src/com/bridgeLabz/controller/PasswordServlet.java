@@ -11,7 +11,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.bridgeLabz.dao.SendDataToDB;
-
+/**
+ * @author Sourabh Magdum
+ * @Purpose - Servlet for Password check Functionality
+ * Date - 11/11/2019
+ */
 @WebServlet("/password")
 public class PasswordServlet extends HttpServlet{
 	

@@ -7,9 +7,20 @@ import java.sql.SQLException;
 import com.bridgeLabz.model.Registration;
 import com.bridgeLabz.repository.ConnectionToDB;
 
+/**
+ * @author Sourabh Magdum
+ * @Purpose - Sends data to database
+ * Date - 11/11/2019
+ */
 public class SendDataToDB {
 
-	// static Connection connection;
+	
+	/**
+	 * @Purpose - used to insert data into database
+	 * @param register
+	 * @return - returns true after successful insertion of data into database
+	 * @throws Exception
+	 */
 	public static boolean inseretIntoDB(Registration register) throws Exception {
 		String query = "INSERT INTO userData VALUES (?,?,?,?)";
 
@@ -32,6 +43,13 @@ public class SendDataToDB {
 		return false;
 	}
 
+	/**
+	 * @Purpose - Used to reset password of user
+	 * @param email
+	 * @param password
+	 * @return - Returns true after successful password reset
+	 * @throws SQLException
+	 */
 	public static boolean resetPassword(String email, String password) throws SQLException {
 		
 		String query1 = "UPDATE `Login`.`userData` SET `password` = ? WHERE (`email` = ?)";

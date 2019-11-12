@@ -32,7 +32,7 @@
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('/home/user/Documents/workspace-sts-3.9.10.RELEASE/LoginApp/WebContent/login/images/img-01.jpg');">
 			<div class="wrap-login100 p-t-00 p-b-150">
-				<form class="login100-form validate-form" action="register" method="get">
+				<form class="login100-form validate-form" action="register" method="post">
 					<div class="login100-form-avatar">
 						<img src="">
 					</div>

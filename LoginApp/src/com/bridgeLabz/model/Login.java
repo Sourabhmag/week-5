@@ -1,5 +1,10 @@
 package com.bridgeLabz.model;
 
+/**
+ * @author Sourabh Magdum
+ * @purpose - Model class for login
+ * Date - 11/11/2019
+ */
 public class Login {
 	String username;
 	String password;

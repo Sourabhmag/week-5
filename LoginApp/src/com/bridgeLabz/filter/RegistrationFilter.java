@@ -16,7 +16,10 @@ import javax.servlet.http.HttpServletResponse;
 
 
 /**
- * Servlet Filter implementation class Filter
+ * @author Sourabh Magdum
+ * @purpose - Used to filter data inserted by user 
+ * 				while using functionality of registration
+ * Data - 11/11/2019
  */
 @WebFilter("/register")
 public class RegistrationFilter implements javax.servlet.Filter {

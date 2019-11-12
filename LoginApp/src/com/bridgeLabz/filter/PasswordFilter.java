@@ -12,7 +12,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet Filter implementation class PasswordFilter
+ * @author Sourabh Magdum
+ * @purpose - Used to filter data when user 
+ * 				enter password
+ * Data - 11/11/2019
  */
 @WebFilter("/password")
 public class PasswordFilter implements Filter {

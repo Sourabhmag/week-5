@@ -11,11 +11,16 @@ import javax.servlet.http.HttpServletResponse;
 import com.bridgeLabz.dao.SendDataToDB;
 import com.bridgeLabz.model.Registration;
 
+/**
+ * @author Sourabh Magdum
+ * @Purpose - Servlet for Register new user Functionality
+ * Date - 11/11/2019
+ */
 @WebServlet("/register")
 public class RegistrationServlet extends HttpServlet{
 	private static final long serialVersionUID = 1L;
 
-	public void service(HttpServletRequest request,HttpServletResponse response) throws IOException 
+	public void doPost(HttpServletRequest request,HttpServletResponse response) throws IOException 
 	{
 		Registration register = new Registration();
 		register.setName(request.getParameter("name"));
@@ -30,7 +35,7 @@ public class RegistrationServlet extends HttpServlet{
 			{
 				response.setContentType("text/html");
 				 out.println("<script type=\"text/javascript\">");
-				 out.println("alert('User registeration failed');");
+				 out.println("alert('User already exits');");
 				 out.println("location='register.jsp';");
 				 out.println("</script>");
 			}

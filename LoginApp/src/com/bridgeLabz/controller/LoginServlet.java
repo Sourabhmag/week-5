@@ -5,18 +5,23 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.servlet.RequestDispatcher;
-import javax.servlet.ServletException;
+
+
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-//import javax.servlet.http.HttpSession;
+import javax.servlet.http.HttpSession;
 
 import com.bridgeLabz.dao.RetriveDataFromDB;
 import com.bridgeLabz.model.Login;
 import com.bridgeLabz.model.Registration;
 
+/**
+ * @author Sourabh Magdum
+ * @Purpose - Servlet for Login Functionality
+ * Date - 11/11/2019
+ */
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -26,20 +31,18 @@ public class LoginServlet extends HttpServlet {
 		login.setUsername(request.getParameter("username"));
 		login.setPassword(request.getParameter("password"));
 
-		//HttpSession session = request.getSession();
+		
 		List<Registration> list = new ArrayList<Registration>();
-		list = RetriveDataFromDB.getData(login);
+		list = RetriveDataFromDB.getData();
+		HttpSession session = request.getSession();
+		
 		PrintWriter out = response.getWriter();
 			for (Registration i : list) {
 				if (i.getEmail().equals(login.getUsername()) && i.getPassword().equals(login.getPassword())) {
-					request.setAttribute("list", list);
-					RequestDispatcher rd = request.getRequestDispatcher("welcome.jsp");
-					try {
-						rd.forward(request, response);
-					} catch (ServletException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
+					session.setAttribute("username",login.getUsername());
+					//RequestDispatcher rd = request.getRequestDispatcher("welcome.jsp");
+					response.sendRedirect("welcome.jsp");
+					//rd.forward(request, response);
 				}
 				else {
 					 response.setContentType("text/html");

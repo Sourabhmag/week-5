@@ -1,5 +1,9 @@
 package com.bridgeLabz.model;
-
+/**
+ * @author Sourabh Magdum
+ * @purpose - Model class for Registration
+ * Date - 11/11/2019
+ */
 public class Registration {
 	String name;
 	String phoneNo;

@@ -4,6 +4,11 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+/**
+ * @author Sourabh Magdum
+ * @Purpose - Used to connect database
+ *  Date - 11/11/2019
+ */
 public class ConnectionToDB {
 	public static Connection DBConnection() 
 	{

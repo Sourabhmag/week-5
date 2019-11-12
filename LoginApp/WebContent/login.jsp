@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 
 <head>
-	<title>Login V12</title>
+	<title>Login</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -29,7 +29,7 @@
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('/home/user/Documents/workspace-sts-3.9.10.RELEASE/LoginApp/WebContent/login/images/img-01.jpg');">
 			<div class="wrap-login100 p-t-190 p-b-30">
-				<form class="login100-form validate-form" action="login" method="get">
+				<form class="login100-form validate-form" action="login" method="post">
 					<div class="login100-form-avatar">
 						<img src="">
 					</div>
