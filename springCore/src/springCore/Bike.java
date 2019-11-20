@@ -1,8 +1,12 @@
 package springCore;
 
-import org.springframework.stereotype.Component;
 
-@Component
+/**
+ * @author Sourabh Magdum
+ * @Purpose - Model class to understand XML based dependency injection(Setter injection)
+ * Setter Injection - values set by using setter method so it is called setter injection
+ *  Date - 13/11/2019
+ */
 public class Bike implements Vehicle {
 	private int id;
 	private String name;

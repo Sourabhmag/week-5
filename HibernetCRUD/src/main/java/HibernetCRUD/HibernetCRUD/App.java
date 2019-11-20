@@ -11,9 +11,11 @@ import org.hibernate.service.ServiceRegistryBuilder;
 
 import utility.Util;
 
+
 /**
- * Hello world!
- *
+ * @author Sourabh Magdum	
+ * @Purpose - CRUD operations of Hibernate
+ * Date - 11/11/2019
  */
 public class App {
 	static Configuration con = new Configuration().configure().addAnnotatedClass(Student.class);
@@ -28,6 +30,9 @@ public class App {
 		//App.delete();
 	}
 
+	/**
+	 * Performs insert operation
+	 */
 	public static void create() {
 		Student student = new Student();
 
@@ -46,7 +51,9 @@ public class App {
 
 		System.out.println("Done");
 	}
-
+	/**
+	 * Performs read operation
+	 */
 	public static void read() {
 		session.beginTransaction();
 		List<Student> list = (List<Student>) session.createQuery("FROM Student").list();
@@ -59,7 +66,9 @@ public class App {
 		System.out.println("*********************");
 		session.getTransaction().commit();
 	}
-
+	/**
+	 * Performs update operation
+	 */
 	public static void update() {
 		session.beginTransaction();
 		System.out.println("Enter phone Number");
@@ -75,6 +84,9 @@ public class App {
 		session.getTransaction().commit();
 		System.out.println("Data Updated Successfully");
 	}
+	/**
+	 * Performs delete operation
+	 */
 	public static void delete() {
 		session.beginTransaction();
 		System.out.println("Enter phone Number");

@@ -383,3 +383,9 @@ Nov 09, 2019 16:40:05.60 [1:1:1109/164005.600873:ERROR:child_process_sandbox_sup
 Nov 10, 2019 16:16:42.78 NEW SESSION
 Nov 10, 2019 16:16:42.78 [19754:19754:1110/161642.786392:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
 Nov 10, 2019 16:16:42.86 Opening in existing browser session.
+
+Nov 13, 2019 16:37:49.50 NEW SESSION
+Nov 13, 2019 16:37:49.50 Opening in existing browser session.
+Nov 13, 2019 16:54:24.14 Opening in existing browser session.
+Nov 13, 2019 17:16:32.54 [24484:24484:1113/171632.541051:ERROR:sandbox_linux.cc(369)] InitializeSandbox() called with multiple threads in process gpu-process.
+Nov 13, 2019 17:16:32.72 Opening in existing browser session.

@@ -1,13 +1,20 @@
 package springCore;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+/**
+ * @author Sourabh Magdum
+ * @Purpose - Model class to understand Annotation based dependency injection
+ *  Date - 13/11/2019
+ */
 @Component
 public class Car implements Vehicle {
 	private int id;
 	private String name;
 	private int price;
-
+	@Autowired
+	private Tyre tyre;
 	@Override
 	public void drive() {
 		// TODO Auto-generated method stub
@@ -38,9 +45,17 @@ public class Car implements Vehicle {
 		this.price = price;
 	}
 
+	public Tyre getTyre() {
+		return tyre;
+	}
+
+	public void setTyre(Tyre tyre) {
+		this.tyre = tyre;
+	}
+
 	@Override
 	public String toString() {
-		return "Car [id=" + id + ", name=" + name + ", price=" + price + "]";
+		return "Car [id=" + id + ", name=" + name + ", price=" + price + ", tyre=" + tyre + "]";
 	}
 
 }

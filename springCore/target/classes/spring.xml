@@ -8,9 +8,18 @@
 	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd 
 	http://www.springframework.org/schema/mvc 
 	http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
-	<bean id="bike" class="springCore.Bike"></bean>
+	
+	<!-- XML file based dependency injection using class Bike -->
+	<bean id="bike" class="springCore.Bike">
 		<property name = "id" value = "1"></property>
 		<property name = "name" value = "Activa"></property>
 		<property name = "price" value = "50000"></property>
+	</bean>
+	
+	<!-- Annotation base dependency injection using class Car -->
 	<context:component-scan base-package="springCore"></context:component-scan>
+	
+	<bean id="tyre" class="springCore.Tyre">
+		<constructor-arg value="MRF"></constructor-arg>
+	</bean>
 </beans>
