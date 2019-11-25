@@ -4,16 +4,24 @@ import java.util.Base64;
 
 import java.util.List;
 
+import org.modelmapper.ModelMapper;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
 
 import com.bridgelabz.fundoouser.Response.Response;
+import com.bridgelabz.fundoouser.dto.ForgotPassworddto;
+import com.bridgelabz.fundoouser.dto.Logindto;
+import com.bridgelabz.fundoouser.dto.Registerdto;
+import com.bridgelabz.fundoouser.exception.custom.DeleteException;
+import com.bridgelabz.fundoouser.exception.custom.RegistrationException;
 import com.bridgelabz.fundoouser.model.ForgotPassword;
 import com.bridgelabz.fundoouser.model.Login;
+import com.bridgelabz.fundoouser.model.Rabbitmq;
 import com.bridgelabz.fundoouser.model.Registration;
 import com.bridgelabz.fundoouser.repository.UserRepository;
 import com.bridgelabz.fundoouser.utility.TokenUtil;
+import com.bridgelabz.fundoouser.utility.Util;
 /******************************************************************************
  *  Compilation:  javac -d bin UserServices.java
  *  Execution:    
@@ -30,10 +38,11 @@ public class UserServices {
 	@Autowired
 	private UserRepository userRepository;
 	@Autowired
-	private JavaMailSender javaMailSender;
+	private TokenUtil tokenUtil;
 	@Autowired
-	TokenUtil tokenUtil;
-	
+	private ModelMapper mapper;
+	@Autowired
+	private RabbitTemplate template;
 	public Registration reg;
 	public String Token;
 	/**
@@ -61,18 +70,34 @@ public class UserServices {
 	 * @Purpose - Adds new user into database
 	 * @return details of specific user
 	 */
-	public Response addUser(Registration user)
+	public Response addUser(Registerdto user)
 	{
-		if(getUser(user.getEmail())!=null)
-			return new Response(400,"User already registered",null);
+		if(getUser(user.getEmail())!=null) {
+			throw new RegistrationException(MessageReference.USER_ALREADY_EXIST);
+		}
+		Registration userData = mapper.map(user,Registration.class);
 		String password = user.getPassword();
-		user.setPassword(encryptPassword(password));
-		reg=user;
+		password = encryptPassword(password);
+		userData.setPassword(password);
+		reg=userData;
 		Token = TokenUtil.generateToken(user.getEmail());
-		userRepository.save(user);
-		javaMailSender.send(EmailService.sendMail(user.getEmail(),Token,MessageReference.Validate_account));
+		Rabbitmq body = Util.getRabbitMq(MessageReference.VALIDATE_ACCOUNT,user.getEmail(), Token);
+		template.convertAndSend("userMessageQueue",body);
+		userRepository.save(userData);
 		
-		return new Response(200,"User Registered \n validation email sent on registered mail id",user);
+		return new Response(200,MessageReference.USER_REGISTERED_MAIL_SENT,user);
+	}
+	public Registration getObject(Registerdto user)
+	{
+		return mapper.map(user,Registration.class);
+	}
+	public Login getLoginObj(Logindto user)
+	{
+		return mapper.map(user,Login.class);
+	}
+	public ForgotPassword getForgotObj(ForgotPassworddto user)
+	{
+		return mapper.map(user,ForgotPassword.class);
 	}
 	/**
 	 * @Purpose - updates user information into database
@@ -81,8 +106,11 @@ public class UserServices {
 	public Response updateUser(String email, Registration user) {
 		
 		Registration userUpdate = userRepository.findByEmail(email).orElse(null);
+		if(userUpdate==null)
+			return new Response(400,MessageReference.USER_NOT_FOUND,null);
 		userUpdate =user;
-		return new Response(200,"User Data Updated Successfully",userUpdate);
+		userRepository.save(userUpdate);
+		return new Response(200,MessageReference.USER_DATA_UPDATED,userUpdate);
 		
 	}
 	/**
@@ -91,8 +119,12 @@ public class UserServices {
 	 */
 	public Response deleteUser(String email) {
 		Registration user = userRepository.findByEmail(email).orElse(null);
+		if(user==null)
+		{
+			throw new DeleteException(MessageReference.USER_NOT_FOUND);
+		}
 		userRepository.delete(user);
-		return new Response(200,"User Deleted Successfully",null);
+		return new Response(200,MessageReference.USER_DELETED,null);
 		
 	}
 	/**
@@ -102,12 +134,12 @@ public class UserServices {
 	public Response login(Login loginData) {
 
 		Registration getUserData = userRepository.findByEmail(loginData.getUsername()).orElse(null);
-		//System.out.println(getUserData.getPassword());
 		String password = (decryptPassword(getUserData.getPassword()));
-		//System.out.println(password);
+		
 		if(getUserData!=null && password.equals(loginData.getPassword()))
 		{
-			return new Response(200,"Login Successfull",getUserData);
+			Token = TokenUtil.generateToken(getUserData.getEmail());
+			return new Response(200,"Login Successfull",Token);
 		}
 		return new Response(400,"Login Failed",null);
 	}
@@ -123,7 +155,8 @@ public class UserServices {
 			return "User is not validated";
 		reg=user;
 		Token = TokenUtil.generateToken(user.getEmail());
-		javaMailSender.send(EmailService.sendMail(user.getEmail(),Token,MessageReference.password_Reset));
+		Rabbitmq body = Util.getRabbitMq(MessageReference.PASSWORD_RESET,user.getEmail(), Token);
+		template.convertAndSend("userMessageQueue",body);
 		return "Password reset link is sent to your registered mail id";
 	}
 	
@@ -155,7 +188,7 @@ public class UserServices {
 		
 		Registration user = getUser(username);
 		user.setValidate(true);
-		updateUser(username, user);
+		updateUser(username,user);
 	}
 
 	/**

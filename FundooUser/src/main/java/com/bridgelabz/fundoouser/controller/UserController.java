@@ -2,7 +2,8 @@ package com.bridgelabz.fundoouser.controller;
 
 import java.util.List;
 
-import org.modelmapper.ModelMapper;
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -40,9 +41,7 @@ public class UserController {
 	@Autowired
 	private UserServices userServices;
 	@Autowired
-	TokenUtil tokenUtil;
-	@Autowired
-	ModelMapper mapper=null;
+	private TokenUtil tokenUtil;
 	
 	// Method to print all data
 	@GetMapping("/user")
@@ -58,18 +57,17 @@ public class UserController {
 	}
 	
 	// Method to add new User
-	@PostMapping("/user")
-	public ResponseEntity<Response> addUser(@RequestBody Registerdto user) {
-		Registration userData = mapper.map(user,Registration.class);
-		return new ResponseEntity<Response>(userServices.addUser(userData),HttpStatus.OK);
+	@PostMapping("/register")
+	public ResponseEntity<Response> addUser(@Valid @RequestBody Registerdto user) {
+		
+		return new ResponseEntity<Response>(userServices.addUser(user),HttpStatus.OK);
 		
 	}
 
 	// Method to update data of existing user
 	@PutMapping("/user/{email}")
-	public ResponseEntity<Response> updateUser(@RequestBody Registration user, @PathVariable String email) {
-		Response update = userServices.updateUser(email, user);
-		return new ResponseEntity<Response>(update,HttpStatus.OK);
+	public ResponseEntity<Response> updateUser(@Valid @RequestBody Registerdto user, @PathVariable String email) {
+		return new ResponseEntity<Response>(userServices.updateUser(email,userServices.getObject(user)),HttpStatus.OK);
 	}
 
 	// Method to delete existing user
@@ -80,9 +78,8 @@ public class UserController {
 
 	// Method to login existing user
 	@PostMapping("/login")
-	public ResponseEntity<Response> login(@RequestBody Logindto loginData) {
-		Login userData = mapper.map(loginData, Login.class);
-		return new ResponseEntity<Response>(userServices.login(userData),HttpStatus.OK);
+	public ResponseEntity<Response> login(@Valid @RequestBody Logindto loginData) {
+		return new ResponseEntity<Response>(userServices.login(userServices.getLoginObj(loginData)),HttpStatus.OK);
 	}
 
 	// Method to forgot password
@@ -96,10 +93,7 @@ public class UserController {
 	@PostMapping("/verify")
 	public ResponseEntity<Response> verify(@RequestParam String token,@RequestBody ForgotPassworddto password)
 	{
-		System.out.println(password.getPassword()+"\n"+password.getPasswordCheck());
-		ForgotPassword pass = mapper.map(password,ForgotPassword.class);
-		return new ResponseEntity<Response>(userServices.verify(pass,token),HttpStatus.OK);
-		
+		return new ResponseEntity<Response>(userServices.verify(userServices.getForgotObj(password),token),HttpStatus.OK);	
 	}
 	
 	// Method to validate user account

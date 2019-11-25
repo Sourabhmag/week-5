@@ -1,5 +1,8 @@
 package com.bridgelabz.fundoouser.dto;
 
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
+
 import lombok.Data;
 /******************************************************************************
  *  Compilation:  javac -d bin ForgotPassworddto.java
@@ -14,6 +17,12 @@ import lombok.Data;
  ******************************************************************************/
 @Data
 public class ForgotPassworddto {
+	
+	@NotBlank(message = "password is required")
+	@Size(min = 3,max = 20)
 	private String password;
+	
+	@NotBlank(message = "passwordCheck is required")
+	@Size(min = 3,max = 20)
 	private String passwordCheck;
 }

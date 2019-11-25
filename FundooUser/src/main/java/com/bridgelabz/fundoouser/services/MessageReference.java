@@ -11,7 +11,11 @@ package com.bridgelabz.fundoouser.services;
  *
  ******************************************************************************/
 public class MessageReference {
-	public static final String Validate_account = "http://localhost:8081/validate?token=";
-	public static final String password_Reset = "http://localhost:8081/verify?token=";
-	public static final String user_Already_exits = "user is already registered";
+	public static final String VALIDATE_ACCOUNT = "http://localhost:8081/validate?token=";
+	public static final String PASSWORD_RESET = "http://localhost:8081/verify?token=";
+	public static final String USER_ALREADY_EXIST = "user is already registered";
+	public static final String USER_NOT_FOUND= "user is not registered";
+	public static final String USER_DATA_UPDATED = "user data updated successfully";
+	public static final String USER_DELETED = "User Deleted Successfully";
+	public static final String USER_REGISTERED_MAIL_SENT = "User Registered \n validation email sent on registered mail id";
 }
